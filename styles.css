@@ -1,0 +1,78 @@
+title{
+    background-color: yellow
+  }
+  
+  fieldset{
+    background: rgba(6,122, 89,.3)
+    
+  }
+  h1, p {
+    text-align: center;
+    margin: 1em auto;
+    color: white
+  }
+  
+  
+  body {
+    background-image: url("https://www.nosequeestudiar.net/site/assets/files/1695520/medicina-medico-estetoscopio.jpg");
+    background-blend-mode: color-burn;
+    background-color:#1AAAB1;
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    color: 000000;
+    font-size: 19px;
+    font-family: Tahoma;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset{
+    border:none;
+    border-bottom: 3px solid #261AB0;
+  }
+  fieldset:last-of-type{
+    border-bottom: none;
+  
+  }
+  label{
+    display: block;
+    margin: 0.5 rem 0;
+  }
+  input, select, 
+  textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2 em;
+  }
+  
+  input, textarea{
+    background-color: #B3F0F4;
+    border: 1px solid #B3F0F4;
+    color: black;
+  
+  }
+
+  .inline{
+    width: unset;
+    margin: 0 0.5 0 0;
+    
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #1AB06B;
+    border-color: #401AB0;
+    min-width: 300px;
+  }
+  

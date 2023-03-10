@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang= "en">
+  <head>
+    <title>Health Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta charset= "UTF-8">
+  </head>
+<body>
+  <h1 id ="title">Health Form</h1>
+<p id = "description">Please filled this form for give you the best information for you  health
+</p>
+
+<form id ="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+<fieldset>       
+<label id="name-label">Name
+    
+      <input  id="name" type = "text" placeholder= "Enter your name" required></input>            
+    
+</label>
+<label id="email-label">Email <input id= "email" type = "email" placeholder= "Enter your email" required></input>     
+    
+</label>
+<label id="number-label">Age
+    
+      <input id= "number" type = "number" placeholder = "Age" min="18" max="59"></input>
+</fieldset>
+</label>
+           
+<fieldset>
+  <label>Would you recommend this Health Form to a Friend?</label>
+    <label for="definitely"> 
+      <input id ="definitely" class="inline" type = "radio" name="recommend-friend"  value="33"> Definitely
+    </label>
+    <label for="maybe"> 
+      <input id ="maybe" type = "radio" class="inline" name="recommend-friend"  value="34"> Maybe
+    </label>
+    <label for="not-sure"> 
+      <input id ="not-sure" type = "radio" class="inline" name="recommend-friend"  value="35"> Not sure 
+    </label>
+
+
+
+<label for="dropdown">What is what you always do in the day?</label>
+
+    <select id="dropdown" name="dropdown">
+          <option value="">Select any option</option>
+          <option value="1">Sedentary</option>
+          <option value="2">Worker</option>
+          <option value="3">Physical activities</option>
+          <option value="4">Reading and writing</option>
+          <option value="5">Reading</option>
+          <option value="6">Meditation</option>
+                      
+      </select>
+</fieldset>
+
+<fieldset>
+  <label>What are your health problems?</label>
+    <label><input class="inline" value="0" type = "checkbox"></input> Diabetes</label>
+    <label><input class="inline" value="1" type = "checkbox"></input> High pressure</label>
+    <label><input class="inline" value="2" type = "checkbox"></input> Heart problems</label>
+    <label><input class="inline" value="3" type = "checkbox"></input> Asthma</label>
+    <label><input class="inline" value="4" type = "checkbox"></input> Pneumonia</label>
+    <label><input class="inline" value="5" type = "checkbox"></input> Arthritis</label>
+    <label><input class="inline" value="6" type = "checkbox"></input> Pulmonary tuberculosis</label>
+    <label><input class="inline" value="7" type = "checkbox"></input> Bronchitis</label>
+    <label><input class="inline" value="8" type = "checkbox"></input> Obesity</label>
+
+
+
+<label for="jayo">Any comments or suggestions<textarea placeholder="Please" rows="4" cols="50" id="jayo"></textarea>
+</label>
+</fieldset>
+    <input id= "submit" type="submit" value="Submit">
+
+</form>
+</body>
+</html>
